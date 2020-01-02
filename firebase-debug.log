@@ -1,0 +1,25 @@
+[debug] [2020-01-02T13:57:57.441Z] ----------------------------------------------------------------------
+[debug] [2020-01-02T13:57:57.453Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\utkarsh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-01-02T13:57:57.453Z] CLI Version:   7.2.4
+[debug] [2020-01-02T13:57:57.453Z] Platform:      win32
+[debug] [2020-01-02T13:57:57.453Z] Node Version:  v10.16.3
+[debug] [2020-01-02T13:57:57.457Z] Time:          Thu Jan 02 2020 19:27:57 GMT+0530 (India Standard Time)
+[debug] [2020-01-02T13:57:57.457Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-01-02T13:57:57.489Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-02T13:57:57.489Z] > authorizing via signed-in user
+[debug] [2020-01-02T13:57:57.489Z] [iam] checking project chatty-1 for permissions ["firebase.projects.get"]
+[debug] [2020-01-02T13:57:57.505Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/chatty-1:testIamPermissions  
+
+[debug] [2020-01-02T13:58:01.123Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-02T13:58:01.135Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chatty-1  
+ 
+[debug] [2020-01-02T13:58:05.131Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\utkarsh'...
+[info] 
+[debug] [2020-01-02T13:58:05.143Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chatty-1/webApps/-/config  
+ 
+[debug] [2020-01-02T13:58:06.040Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: y
+[info] +  hosting: Local server: http://localhost:5000
